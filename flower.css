@@ -212,3 +212,141 @@ body {
     font-weight: 400;
 
 }
+
+
+/* mmmmmmmmmmmmmmmmmmmm */
+.featuresection {
+    margin-bottom: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  
+  .featurecaption {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+  }
+  
+  
+  .feature1 {
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+  }
+  
+  .featureimg1 {
+    width: 310px;
+    height: 428px;
+    object-fit: contain;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  
+  
+  
+  .feature2 {
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+  
+  
+  }
+  
+  .feature3 {
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+  }
+
+.deliverysection {
+    margin-bottom: 100px;
+    justify-content: space-between;
+  }
+  
+  .deliverysectioncontent1 {
+    display: flex;
+    background-color: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-left: 11%;
+    margin-right: 12%;
+    padding: 86px 175px 86px 175px;
+  
+  }
+
+  .container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
+.review{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.review-content{
+    background-color:#ccc ;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    text-align: center;
+    padding-top: 80px;
+}

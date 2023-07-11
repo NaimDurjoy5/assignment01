@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-.cus{
+
+.cus {
     background-color: rgba(229, 84, 115, 0.10);
 
 }
 
-body{
-    margin-top: 0;
+body {
+    margin: 0;
 }
+
 .top-header {
     display: flex;
     gap: 97px;
@@ -22,7 +24,7 @@ body{
     font-style: normal;
 }
 
-.subtitle{
+.subtitle {
     color: rgba(39, 39, 39, 0.60);
     font-size: 20px;
     font-weight: 400;
@@ -30,25 +32,183 @@ body{
     margin-bottom: 32px;
 }
 
-.btn{
+/* button part */
+.btn {
     color: #FFF;
     border-radius: 8px;
     background: #E55473;
-   font-size: 20px;
-   font-weight: 700;
-   border: 0;
-   padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 20px 43px;
 }
 
-.banner{
+.banner {
     padding: 100px 30px 0px 50px;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-.profile-pic{
-    width: 635px;
-height: 800px;
-flex-shrink: 0;
+/* main */
+
+.hot-deal {
+    display: flex;
+    height: 620px;
+    border-radius: 8px;
+    background: #FEF6F8;
+    padding: 100px;
+
+}
+
+.title-2 {
+    font-family: Lato;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.title-2 span {
+    color: #E55473;
+}
+
+.banner-2 {
+    text-align: center;
+    padding: 150px;
+    margin-top: 60px;
+
+}
+
+.subtitle-2 {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main-pic {
+    padding: 100px;
+}
+
+.cool-deal {
+    margin: 150px;
+}
+
+.banner-3 {
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.title-3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.subtitle-3 {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.instagram-pic {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Subscribe-form {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.Subscribe-conten {
+    background-image: url("image/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.title-4 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.subtitle-4 {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.text-box {
+    width: 700px;
+    height: 64px;
+    color:#272727;
+    text-align:center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+
+}
+
+
+.title-5 {
+
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.title-6 {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subtitle-5 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+
 }
